@@ -14,10 +14,14 @@ This project is divided into four sections :
     - Created a statistical risk model using Principal Component Analysis.
     - Created factors, then evaluated them using factor-weighted returns, quantile analysis, sharpe ratio, and turnover analysis. 
     - Optimized the portfolio using the risk model and factors using multiple optimization formulations.
+5. __Backtesting:__
+    - Built a fairly realistic backtester that uses the Barra data. The backtester will perform portfolio optimization that includes transaction costs.
+    - Implemented it with computational efficiency in mind, to allow for a reasonably fast backtest. 
+    - Performanced attribution to identify the major drivers of your portfolio's profit-and-loss (PnL).
 
 Dataset
 -
-Since the project was under Udacity's AI for Trading Nanodegree the dataset was provided by thier partner Quotemedia and Sharadar.
+Since the project was under Udacity's AI for Trading Nanodegree the dataset was provided by thier partners Quotemedia, Barra and Sharadar.
 
 ## Installation
 
