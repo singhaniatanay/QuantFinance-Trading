@@ -1,7 +1,7 @@
 # QuantFinance-Trading
-This project deals with  __Quantative Trading, building a trading strategy by generating alpha, optimizing a portfolio__ . 
+This project deals with  __Quantative Trading, building a trading strategy by generating alpha, optimizing a portfolio__ .
 
-This project is divided into four sections :
+This project is divided into 5 sections :
 1. __Trading with Momentum Strategy :__
    - Generated a trading signal based on Momentum Indicator.
    - Tested the strategy to see if it has potential to be profitable.
@@ -12,11 +12,11 @@ This project is divided into four sections :
     - The portfolio formed was compared to a benchmark index by calculatiing a tracking error against the index.
 4. __Multi-Factor Model using PCA:__
     - Created a statistical risk model using Principal Component Analysis.
-    - Created factors, then evaluated them using factor-weighted returns, quantile analysis, sharpe ratio, and turnover analysis. 
+    - Created factors, then evaluated them using factor-weighted returns, quantile analysis, sharpe ratio, and turnover analysis.
     - Optimized the portfolio using the risk model and factors using multiple optimization formulations.
 5. __Backtesting:__
     - Built a fairly realistic backtester that uses the Barra data. The backtester will perform portfolio optimization that includes transaction costs.
-    - Implemented it with computational efficiency in mind, to allow for a reasonably fast backtest. 
+    - Implemented it with computational efficiency in mind, to allow for a reasonably fast backtest.
     - Performanced attribution to identify the major drivers of your portfolio's profit-and-loss (PnL).
 
 Dataset
